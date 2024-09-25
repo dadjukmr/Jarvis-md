@@ -25,6 +25,7 @@ module.exports = {
   ALIVE_DATA : process.env.ALIVE_DATA || "_*Hy &sender i am alive now*_\n\n_PLATFORM: &platform_\n_RUNTIME : &runtime_\n\n_. type alive to update your alive message_",
   SESSION_ID: process.env.SESSION_ID || 'Jarvis_53d1_9f06_0807_5cf1_d414_3611_1930_5c8e',
   LANG: process.env.LANG || 'EN',
+  SETVV: process.env.SETVV || 'DM',
   ELEVENLABS: process.env.ELEVENLABS,
   HANDLERS: process.env.HANDLERS || process.env.HANDLER || process.env.PREFIX || '/',
   ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "false"),
